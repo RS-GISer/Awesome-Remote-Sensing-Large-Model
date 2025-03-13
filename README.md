@@ -1,7 +1,9 @@
-# Awesome-Remote-Sensing-Large-Model
-Awesome Remote Sensing Large Model：Multi-Modal related（多模态相关），Remote Sensing Foundation Models（遥感基础模型）
+# <p align=center>`Awesome Remote Sensing Large Model`</p>
 
-# Multi-Modal related  多模态相关
+Awesome Remote Sensing Large Model：
+Visual Remote Sensing Foundation Models and Visual-Language Remote Sensing Goundation Models
+
+# Visual-Language Remote Sensing Goundation Models 视觉-语言遥感基础模型
 
 - 2024-arxiv. [**Paper**](https://arxiv.org/abs/2410.07167) | [**github(code)**](https://github.com/shikiw/Modality-Integration-Rate) 
 
@@ -56,7 +58,7 @@ Awesome Remote Sensing Large Model：Multi-Modal related（多模态相关），
     为了促进 RS 领域 VLM 的评估，我们还提供了一个名为 RSIEval 的基准评估数据集。 
     该数据集由人工注释的字幕和视觉问答对组成，可在 RS 背景下对 VLM 进行全面评估。
 
-# Remote Sensing Foundation Models  遥感基础模型
+# Visual Remote Sensing Foundation Models  视觉遥感基础模型
 
 - 2024-IEEE JSTARS Special issue.[**MTP(Paper)**](https://arxiv.org/abs/2403.13430) | [**github(code)**](https://github.com/ViTAE-Transformer/MTP)     
     
