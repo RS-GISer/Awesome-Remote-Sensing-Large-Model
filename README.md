@@ -3,7 +3,24 @@
 Awesome Remote Sensing Large Model：
 Visual Remote Sensing Foundation Models and Visual-Language Remote Sensing Goundation Models
 
+- ⭐更新两个CVPR2025视觉-语言遥感基础模型
+
 # Visual-Language Remote Sensing Goundation Models 视觉-语言遥感基础模型
+
+- 2025-CVPR. [**Paper**](http://arxiv.org/abs/2410.01768) | [**主页)**](https://likyoo.github.io/SegEarth-OV/)   | [**github(code)**](https://github.com/likyoo/SegEarth-OV)  
+
+    SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling
+    </br>提出了一个简单而通用的上采样器 SimFeatUp，以无需训练的方式恢复深度特征中丢失的空间信息。
+    此外，基于对 CLIP 中局部补丁标记对 [CLS] 标记的异常响应的观察，我们建议执行一个简单的减法运算来减轻补丁标记中的全局偏差。
+    在 17 个遥感数据集上进行了广泛的实验，涵盖语义分割、建筑物提取、道路检测和洪水检测任务。该方法在 4 项任务上比最先进的方法平均提高了 5.8%、8.2%、4% 和 15.3%。所有代码均已发布。
+
+- 2025-CVPR. [**Paper**](https://cvpr.thecvf.com/virtual/2025/poster/33431) 
+
+    SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling
+    </br>开发了一个细粒度的 RS 解译数据集 Sky-SA，它包含 183,375 个带有全像素手动注释的高质量局部图像-文本对，涵盖 1,763 个类别标签，
+    比以前的数据集表现出更丰富的语义和更高的密度；我们引入了以视觉为中心的视觉语言建模原则。在预训练阶段，将视觉自监督范式纳入图文对齐，以减少现有范式对一般视觉表征能力的退化。
+    构建了一个跨开放类别文本的视觉相关性知识图谱，并进一步开发了一种新颖的以视觉为中心的图文对比损失，用于使用文本提示进行微调。
+    这个新模型被称为 SkySense-O，在涵盖 4 个任务（从识别到推理、分类到定位）的 14 个数据集的全面评估中展示了令人印象深刻的零样本能力。
 
 - 2024-arxiv. [**Paper**](https://arxiv.org/abs/2410.07167) | [**github(code)**](https://github.com/shikiw/Modality-Integration-Rate) 
 
