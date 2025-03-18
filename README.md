@@ -3,11 +3,22 @@
 Awesome Remote Sensing Large Model：
 Visual Remote Sensing Foundation Models and Visual-Language Remote Sensing Goundation Models
 
+- ⭐2025-3-18:慕尼黑工业大学团队提出GeoLangBind
 - ⭐更新两个CVPR2025视觉-语言遥感基础模型
 
 # Visual-Language Remote Sensing Goundation Models 视觉-语言遥感基础模型
 
-- 2025-CVPR. [**Paper**](http://arxiv.org/abs/2410.01768) | [**主页)**](https://likyoo.github.io/SegEarth-OV/)   | [**github(code)**](https://github.com/likyoo/SegEarth-OV)  
+- 2025-arxiv. [**Paper**](https://arxiv.org/abs/2503.06312) |[**github(code)**](https://github.com/xiong-zhitong/GeoLB-SigLIP)  
+
+    SGeoLangBind: Unifying Earth Observation with Agglomerative Vision-Language Foundation Models
+    </br>提出了 GeoLangBind，一种新颖的聚合视觉语言基础模型，使用语言作为统一媒介来弥合异构 EO 数据模态之间的差距。
+    该方法将不同的 EO 数据类型对齐到共享的语言嵌入空间中，从而实现无缝集成和从各种传感器数据中进行互补特征学习。
+    为了实现这一点，构建了一个涵盖六种数据模态的大规模多模态图像文本数据集 GeoLangBind-2M。
+    GeoLangBind 利用这个数据集开发了一个零样本基础模型，该模型能够处理任意数量的 EO 数据通道作为输入。
+    通过我们设计的模态感知知识聚合 (MaKA) 模块和渐进式多模态权重合并策略，创建了一个强大的聚合基础模型，
+    该模型在零样本视觉语言理解和细粒度视觉理解方面都表现出色。对涵盖多项任务的 23 个数据集进行的广泛评估表明，GeoLangBind 在 EO 应用中具有卓越的性能和多功能性，为各种环境监测和分析任务提供了强大的框架。
+
+- 2025-CVPR. [**Paper**](http://arxiv.org/abs/2410.01768) | [**主页**](https://likyoo.github.io/SegEarth-OV/)   | [**github(code)**](https://github.com/likyoo/SegEarth-OV)  
 
     SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling
     </br>提出了一个简单而通用的上采样器 SimFeatUp，以无需训练的方式恢复深度特征中丢失的空间信息。
