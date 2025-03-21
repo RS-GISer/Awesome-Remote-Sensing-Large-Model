@@ -3,10 +3,21 @@
 Awesome Remote Sensing Large Model：
 Visual Remote Sensing Foundation Models and Visual-Language Remote Sensing Goundation Models
 
+- ⭐2025-3-21: SkyEyeGPT: 通过大型语言模型调整指令调整统一遥感视觉语言任务
 - ⭐2025-3-18:慕尼黑工业大学团队提出GeoLangBind
 - ⭐更新两个CVPR2025视觉-语言遥感基础模型
 
 # Visual-Language Remote Sensing Goundation Models 视觉-语言遥感基础模型
+
+- 2025-ISPRS. [**Paper**](https://www.sciencedirect.com/science/article/pii/S0924271625000206)  
+
+    SGeoLangBind: Unifying Earth Observation with Agglomerative Vision-Language Foundation Models
+    </br>在这项工作中，精心制作了一个大规模遥感多模态指令调整数据集，包括单任务和多任务对话指令。
+    经过人工验证，我们获得了一个包含 968k 个样本的高质量 RS 指令跟踪数据集，即 SkyEye-968k。
+    为此，引入了 SkyEyeGPT，这是一个专为 RS 多粒度视觉语言理解而设计的统一多模态大型语言模型。SkyEyeGPT 可以在完全不同的任务上表现出色，而无需额外的编码模块。 
+    </br>在通过对齐层将 RS 视觉特征投影到语言域后，它们与特定于任务的指令一起输入到基于 LLM 的 RS 解码器中，
+    以预测 RS 开放式任务的答案。此外，设计了一种两阶段调整方法来增强不同粒度的指令遵循和多轮对话能力。
+    在 8 个 RS 视觉语言任务数据集上进行的实验证明了 SkyEyeGPT 在图像级和区域级任务（例如字幕和视觉基础）方面的优势。
 
 - 2025-arxiv. [**Paper**](https://arxiv.org/abs/2503.06312) |[**github(code)**](https://github.com/xiong-zhitong/GeoLB-SigLIP)  
 
